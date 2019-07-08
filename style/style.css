@@ -1,0 +1,302 @@
+/* Initial */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* UTILITY */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
+.primary-text {
+  color: goldenrod;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: #444;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+}
+
+.btn-white {
+  font-size: 20px;
+  background-color: #fff;
+  padding: 15px 15px;
+  color: #444;
+}
+
+.btn:hover,
+.btn-white:hover {
+  background-color: goldenrod;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: goldenrod;
+}
+.clr {
+  clear: both;
+}
+/* Header */
+
+/* Navbar */
+#navbar {
+  background-color: #333;
+  overflow: auto;
+  color: #fff;
+}
+
+#menu-button {
+  display: none;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding: 20px;
+}
+
+#navitems {
+  float: right;
+  list-style: none;
+}
+
+#navitems li {
+  float: left;
+}
+
+#navitems li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navitems li:hover,
+#navitems li a.current {
+  background-color: #444;
+}
+
+/* SHOWCASE */
+#showcase {
+  background: url("../assets/showcase.jpg") no-repeat center;
+  height: 600px;
+  font-size: 24px;
+}
+#showcase .showcase-content {
+  padding-top: 170px;
+  text-align: center;
+  color: #fff;
+}
+#showcase .showcase-content h1 {
+  padding-bottom: 24px;
+}
+#showcase .showcase-content p {
+  padding-bottom: 24px;
+}
+/* END OF HEADER */
+
+/* SECTION INFO */
+#home-info {
+  height: 500px;
+}
+#home-info .img-info {
+  background: url("../assets/photo-1.jpg");
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+#home-info .content-info {
+  text-align: center;
+  float: right;
+  padding: 70px 30px;
+  height: 100%;
+  width: 50%;
+}
+#home-info .content-info h2 {
+  margin-bottom: 25px;
+}
+#home-info .content-info p {
+  margin-bottom: 50px;
+}
+/* END OF SECTION INFO */
+
+/* FEATURE SECTION */
+#features {
+  height: 100%;
+}
+#features .box {
+  float: left;
+  width: 33.3%;
+  height: 100%;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+}
+#features .box i {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+/*END OF FEATURE SECTION*/
+
+/* FOOTER */
+#main-footer {
+  padding: 30px;
+  background: #444;
+  color: #fff;
+  text-align: center;
+}
+/* END OF FOOTER */
+
+/* About Page */
+
+/* SECTION about-info */
+#about-info {
+  font-size: 18 px;
+}
+
+#about-info .about-info-left h1 {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+#about-info .about-info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .about-info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .about-info-right img {
+  width: 70%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+/* END SECTION about-info */
+
+/* SECTION TESTIMONIALS */
+#testimonials {
+  margin-top: 30px;
+  background: url("../assets/test-bg.jpg") no-repeat center center/cover;
+  height: 600px;
+  padding-top: 100px;
+}
+
+#testimonials .testimonial {
+  opacity: 0.9;
+  background-color: goldenrod;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+#testimonials h1 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding-bottom: 25px;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+#testimonials p {
+  margin: 10px 0;
+}
+/* END OF SECTION TESTIMONIALS */
+
+/* CONTACTS PAGE */
+
+/* SECTION FEEDBACK */
+#feedback {
+  padding: 20px;
+}
+
+#feedback h1 {
+  font-size: 40px;
+}
+
+#feedback p {
+  padding-top: 20px;
+}
+#feedback .form-group label {
+  display: block;
+}
+
+#feedback .form-group {
+  padding: 15px 0;
+}
+
+#feedback .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#feedback .form-group textarea {
+  width: 100%;
+  border: 1px #ddd solid;
+  padding: 10px;
+}
+
+/* END OF SECTION FEEDBACK */
+
+/* SECTION CONTACTS */
+
+#contacts {
+  background-color: #333;
+  color: white;
+  overflow: auto;
+}
+
+#contacts .box {
+  float: left;
+  background-color: #333;
+  width: 33.3%;
+  text-align: center;
+  padding: 50px;
+}
+#contacts .box i {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+#contacts .box h2 {
+  margin-bottom: 40px;
+}
+
+/*END SECTION CONTACTS */
